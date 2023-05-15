@@ -5,8 +5,6 @@
 import math
 import tkinter as tk
 
-
-
 # maak calculator class
 class Calculator:
     def __init__(self, master):
