@@ -5,6 +5,8 @@
 import math
 import tkinter as tk
 
+
+
 # maak calculator class
 class Calculator:
     def __init__(self, master):
@@ -28,7 +30,7 @@ class Calculator:
             else:
                 button.configure(bg="white")
 
-    # maak creat buttons def
+            # maak creat buttons def
     def create_buttons(self):
             button_list = [
                 ['sin', 'cos', 'tan', '^2', '10^x'],
@@ -129,6 +131,9 @@ class Calculator:
 
         else:
             self.total.set(self.entry.get() + button_text)
+
+
+
 
 # maak mainloop
 
