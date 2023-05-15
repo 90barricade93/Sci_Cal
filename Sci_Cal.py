@@ -130,9 +130,6 @@ class Calculator:
         else:
             self.total.set(self.entry.get() + button_text)
 
-
-
-
 # maak mainloop
 
 if __name__ == '__main__':
